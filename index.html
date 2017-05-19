@@ -1,1 +1,30 @@
-test
+<!doctype html>
+<html>
+<head>
+<title>Document</title>
+</head>
+
+<body>
+<div id="root"></div>
+
+<!-- <script src="https://unpkg.com/react@15/dist/react.js"></script> -->
+<!-- <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script> -->
+<script src="react.min.js"></script>
+<script src="react-dom.min.js"></script>
+<script src="browser.min.js"></script>
+<script type="text/babel">
+class Test extends React.Component {
+	render() {
+		return (
+			<p>test</p>
+		);
+	}
+}
+
+ReactDOM.render(
+  <Test />,
+  document.getElementById('root')
+);
+</script>
+</body>
+</html>
