@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>My Game</title>
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+  </head>
+  <body>
+    <div id="hello-world" style="display: none">
+      Hello World
+    </div>
+
+    <button id="click-me-button">click me</button>
+
+  </body>
+  <script>
+   $(function() {
+     $("#click-me-button").click(function() {
+       $("#hello-world").show();
+     });
+   });
+  </script>
+</html>
