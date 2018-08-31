@@ -1,21 +1,39 @@
-<html>
-  <head>
-    <title>My Game</title>
-    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
-  </head>
-  <body>
-    <div id="hello-world" style="display: none">
-      Hello World
-    </div>
+<style type="text/css">
+body {
+  background: black;
+}
+canvas {
+  border: 1px solid white;  
+} 
+</style>
+<script type="text/javascript" src="kontra-dev.js"></script>
+<canvas width="600" height="600"></canvas>
+<script type="text/javascript">
+kontra.init();
 
-    <button id="click-me-button">click me</button>
+let asteroid = kontra.sprite({
+  x: 100,
+  y: 100,
+  dx: 2,
+  dy: 2,
+  render() {
+    this.context.strokeStyle = 'white';
 
-  </body>
-  <script>
-   $(function() {
-     $("#click-me-button").click(function() {
-       $("#hello-world").show();
-     });
-   });
-  </script>
-</html>
+    this.context.beginPath();
+    this.context.arc(this.x, this.y, 30, 0, Math.PI * 2);
+    this.context.stroke();
+  }
+});
+
+let sprite = kontra.sprite({
+  x: 100,        // starting x,y position of the sprite
+  y: 80,
+  color: 'red',  // fill color of the sprite rectangle
+  width: 20,     // width and height of the sprite rectangle
+  height: 40,
+  dx: 2          // move the sprite 2px to the right every frame
+});
+
+asteroid.render();
+
+</script>
