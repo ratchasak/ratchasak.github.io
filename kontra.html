@@ -1,0 +1,98 @@
+<style type="text/css">
+body {
+  background: black;
+}
+canvas {
+  border: 1px solid white;  
+} 
+</style>
+<script type="text/javascript" src="kontra.js"></script>
+<canvas width="600" height="600"></canvas>
+<script type="text/javascript">
+kontra.init();
+let sprites = [];
+
+function degreesToRadians(degrees) {
+  return degrees * Math.PI / 180;
+}
+
+function createAsteroid() {
+  let asteroid = kontra.sprite({
+    x: 100,
+    y: 100,
+    dx: (Math.random() * 4) - 2,
+    dy: (Math.random() * 4) - 2,
+    render() {
+      this.context.strokeStyle = 'white';
+
+      this.context.beginPath();
+      this.context.arc(this.x, this.y, 30, 0, Math.PI * 2);
+      this.context.stroke();
+    }
+  });
+
+  sprites.push(asteroid);
+}
+
+for (var i = 0; i < 4; i++) {
+  createAsteroid();
+}
+
+let ship = kontra.sprite({
+  x: 300,
+  y: 300,
+  width: 6,
+  rotation: 0,
+  render() {
+    this.context.save();
+
+    this.context.translate(this.x, this.y);
+    this.context.rotate(degreesToRadians(this.rotation));
+
+    this.context.beginPath();
+
+    this.context.moveTo(-3, -5);
+    this.context.lineTo(12, 0);
+    this.context.lineTo(-3, 5);
+
+    this.context.closePath();
+    this.context.stroke();
+
+    this.context.restore();
+  },
+  update() {
+    if (kontra.keys.pressed('left')) {
+      this.rotation += -4;
+    } else if (kontra.keys.pressed('right')) {
+      this.rotation += 4;
+    }
+  }
+});
+
+sprites.push(ship);
+
+let loop = kontra.gameLoop({
+  update() {
+    sprites.map(sprite => {
+      sprite.update();
+
+      if (sprite.x < 0) {
+        sprite.x = kontra.canvas.width;
+      } else if (sprite.x > kontra.canvas.width) {
+        sprite.x = 0;
+      }
+
+      if (sprite.y < 0) {
+        sprite.y = kontra.canvas.height;
+      } else if (sprite.y > kontra.canvas.height) {
+        sprite.y = 0;
+      }
+    });
+  },
+  render() {
+    sprites.map(sprite => sprite.render());
+  }
+});
+
+loop.start();
+</script>
