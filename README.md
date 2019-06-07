@@ -10,6 +10,7 @@
 
 * [Trending repositories on GitHub today · GitHub](https://github.com/trending)
 * [The top 500 sites on the web](https://www.alexa.com/topsites)
+* [List of best-selling video games](https://en.wikipedia.org/wiki/List_of_best-selling_video_games)
 * [List of Billboard number-one singles](https://en.wikipedia.org/wiki/List_of_Billboard_number-one_singles)
 * [Lists of The New York Times Fiction Best Sellers](https://en.wikipedia.org/wiki/Lists_of_The_New_York_Times_Fiction_Best_Sellers)
 * [Lists of The New York Times Non-Fiction Best Sellers](https://en.wikipedia.org/wiki/Lists_of_The_New_York_Times_Non-Fiction_Best_Sellers)
@@ -18,8 +19,6 @@
 * [TIOBE Index | TIOBE - The Software Quality Company](https://www.tiobe.com/tiobe-index/)
 
 # Game
-
-* [List of best-selling video games](https://en.wikipedia.org/wiki/List_of_best-selling_video_games)
 
 ## Design
 
