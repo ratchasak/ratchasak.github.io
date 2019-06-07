@@ -27,7 +27,7 @@
 
 ## Games
 
-###パズドラ
+### パズドラ
 
 * [Monster Book | Puzzle & Dragons Database](http://puzzledragonx.com/en/monsterbook.asp)
 * [寵物圖鑑 - Puzzle & Dragons 戰友系統及資訊網](http://pad.skyozora.com/pets/)
@@ -39,6 +39,6 @@
 * [【パズドラ】最新！最強パーティランキング - GameWith](https://xn--0ck4aw2h.gamewith.jp/article/show/14672)
 * [【パズドラ】最強リーダーキャラ(パーティ)ランキング【6/7更新】 | AppMedia](https://appmedia.jp/pazudora/64140)
 
-###モンスト
+### モンスト
 
 * [Ableberries | Monster Strike Wiki | FANDOM powered by Wikia](https://monster-strike-enjp.fandom.com/wiki/Ableberries)
