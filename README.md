@@ -3,9 +3,19 @@
 * [Hacker News](https://news.ycombinator.com/)
 * [reddit: the front page of the internet](https://www.reddit.com/r/programming/)
 * [Stack Overflow - Where Developers Learn, Share, & Build Careers](https://stackoverflow.com/)
-* [Trending repositories on GitHub today · GitHub](https://github.com/trending)
 * [TouchArcade – iPhone and iPad Games](https://toucharcade.com/)
 * [Blognone | Tech News That's Worth](https://www.blognone.com/)
+
+# Lists
+
+* [Trending repositories on GitHub today · GitHub](https://github.com/trending)
+* [The top 500 sites on the web](https://www.alexa.com/topsites)
+* [List of Billboard number-one singles](https://en.wikipedia.org/wiki/List_of_Billboard_number-one_singles)
+* [Lists of The New York Times Fiction Best Sellers](https://en.wikipedia.org/wiki/Lists_of_The_New_York_Times_Fiction_Best_Sellers)
+* [Lists of The New York Times Non-Fiction Best Sellers](https://en.wikipedia.org/wiki/Lists_of_The_New_York_Times_Non-Fiction_Best_Sellers)
+* [Lists of The New York Times Non-Fiction Best Sellers](https://en.wikipedia.org/wiki/Lists_of_The_New_York_Times_Non-Fiction_Best_Sellers)
+* [List of The New York Times Manga Best Sellers](https://en.wikipedia.org/wiki/List_of_The_New_York_Times_Manga_Best_Sellers)
+* [TIOBE Index | TIOBE - The Software Quality Company](https://www.tiobe.com/tiobe-index/)
 
 # Game
 
