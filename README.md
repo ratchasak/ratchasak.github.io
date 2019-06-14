@@ -51,3 +51,7 @@
 ### モンスト
 
 * [Ableberries | Monster Strike Wiki | FANDOM powered by Wikia](https://monster-strike-enjp.fandom.com/wiki/Ableberries)
+
+# Blogs
+
+* [Level Design Patterns in 2D Games](https://www.gamasutra.com/blogs/AhmedKhalifa/20190610/344344/Level_Design_Patterns_in_2D_Games.php)
