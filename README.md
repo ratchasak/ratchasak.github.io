@@ -42,6 +42,8 @@
 * [寵物圖鑑 - Puzzle & Dragons 戰友系統及資訊網](http://pad.skyozora.com/pets/)
 * [地下城列表 - Puzzle & Dragons 戰友系統及資訊網](http://pad.skyozora.com/stage/)
 * [【パズドラ】動くモンスター一覧【6/3更新】 | パズドラ攻略 | 神ゲー攻略](https://kamigame.jp/puzzle-dragons/%E3%81%8A%E5%BD%B9%E7%AB%8B%E3%81%A1%E6%83%85%E5%A0%B1%E3%83%BB%E3%82%B3%E3%83%A9%E3%83%A0/%E5%8B%95%E3%81%8F%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E4%B8%80%E8%A6%A7.html)
+* [【パズドラ】複数所持しておきたいコラボガチャ限定モンスター - GameWith](https://パズドラ.gamewith.jp/article/show/35424)
+* [【パズドラ】きせかえドロップの入手方法と対象キャラ一覧 - GameWith](https://パズドラ.gamewith.jp/article/show/125250)
 * [Puzzle and Dragons blog](https://pad.protic.site/)
 * [Blogging Mama • Puzzle & Dragons Japanese News & Translations!](http://www.padpadblog.com/)
 * [【パズドラ】最強パーティランキング！【8/16更新】｜ゲームエイト](https://game8.jp/archives/18865)
