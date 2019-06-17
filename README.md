@@ -20,6 +20,10 @@
 
 # Game
 
+## Game Development
+
+* [CS50's Introduction to Game Development](https://www.youtube.com/playlist?list=PLhQjrBD2T383Vx9-4vJYFsJbvZ_D17Qzh)
+
 ## Design
 
 * [Game mechanics](https://en.wikipedia.org/wiki/Game_mechanics)
